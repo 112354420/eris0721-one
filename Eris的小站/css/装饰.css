@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* border: pink 5px solid; */
+}
+header {
+    position:fixed;
+    text-decoration: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header h1{
+    background-color: black;
+    color: white;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 10vw;
+    background-image: url(../image/eris.jpg);
+    background-repeat: no-repeat;
+    background-size: 50px auto;
+    background-position-x: 6vw;
+    background-position-y: center;
+    width: 100vw
+}
+header li{
+    display: inline;
+    color: white;
+    margin-right: 3vw;
+}
+header ul{
+    position: absolute;
+    top: 0;
+    right: 15vw;
+    line-height: 70px;
+}
+.atri {
+    background-image: url(../image/atri.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-color: antiquewhite;
+
+}
+.atri p{
+    word-spacing: 4px;
+}
+.eg1 {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 15vw;
+}
+.atri h2{
+    font-size:50px;
+    word-spacing: 10px;
+}
+.eg2 {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 30vw;
+    text-align: center;
+    width: 99vw;
+    color: black;
+}
+.yuzusoft {
+    text-align: center;
+}
+.yuzusoft h2{
+    background-color:wheat;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    word-spacing: 20px;
+}
+.yuzusoft div{
+    background-image: url(../image/天使纷扰.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.yuzusoft h3{
+    position: relative;
+    top: 10vw;
+    font-size: 40px;
+    word-spacing: 5px;
+}
+.yuzusoft h4{
+    position: relative;
+    top: 15vw;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+.yuzusoft a{
+    position: relative;
+    top: 25vw;
+    color: #949d9a;
+    text-decoration: none;
+    border: #949d9a 1px solid;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 6px;
+    background-color:white ;
+}
+.yuzusoft p{
+    position: relative;
+    top: 18vw;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+.anime{
+    background-color: gray;
+}
+.anime h2{
+    background-color: wheat;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    word-spacing: 20px;
+}
+.anime img{
+    border-radius: 10px;
+}
+.anime h3{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    word-spacing: 10px;
+    font-size: 40px;
+}
+.jieshao{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ede9db;
+    padding: 120px;
+ 
+}
+.jieshao div{
+    text-align: center;
+}
